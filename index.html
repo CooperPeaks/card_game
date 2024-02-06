@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="compteurPioche">
+            <h1>Pioche :</h1>
+            <div class="nbrePioche" id="nbrePioche"></div>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="upPage">
+            <!--Conteneur bouton-->
+            <div class="conteneurButton" id="conteneur">
+                <!-- <button id="setPioche">Set Pioche</button> -->
+                <button onclick="Pioche(pioche)">Pioche Carte</button>
+                <button onclick="Launch()">Launch</button>
+            </div>
+            
+            <!--Position carte-->
+            <div class="cardPosition" id="cardPosition"></div>
+        </div>
+
+    </main>
+    
+
+</body>
+
+</html>

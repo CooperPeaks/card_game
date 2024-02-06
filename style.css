@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.compteurPioche{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Main */
+.upPage {
+    display: flex;
+}
+
+.conteneurButton{
+    background-color: aqua;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    margin: auto;
+    width: 200px;
+    height: 100px;
+}
+
+.cardPosition {
+    background-color: yellow;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+#carte {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10%;
+    font-size: 100px;
+    text-align: center;
+    z-index: auto;
+}
